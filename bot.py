@@ -4,6 +4,8 @@ from discord.ext import commands
 import requests as rq
 from bs4 import BeautifulSoup as bs
 
+print(11/25)
+
 # 디스코드 클라이언트를 생성합니다.
 Client = discord.Client()
 client = commands.Bot(command_prefix=None)
